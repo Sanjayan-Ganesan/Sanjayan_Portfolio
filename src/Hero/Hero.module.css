@@ -1,0 +1,84 @@
+@import "../../src/vars.css";
+
+
+.heroCtnr{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20%;
+}
+
+.heroImgCtnr{
+    width:40%;
+}
+
+.heroImg{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+.heroText{
+    width: 40%;
+}
+
+.heroText h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.heroText p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.contactBtn{
+    background-color:var(--color-secondary) ;
+    padding: 10px 20px;
+    outline: 0;
+    border-radius: 20px;
+    border: 0;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 963px){
+    .hero{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .heroImgCtnr{
+        width: 100%;
+    }
+
+    .heroText{
+        width: 100%;
+    }
+
+    .heroText h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .heroText p{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .btnCtnr{
+        text-align: center;
+    }
+}
