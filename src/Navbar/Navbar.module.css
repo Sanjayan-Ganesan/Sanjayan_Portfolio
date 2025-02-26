@@ -88,6 +88,9 @@
     .mobileMenu{
         display: block;
         animation: slideIn 1s ease-in-out;
+        position: absolute;
+        z-index: 9;
+        background-color: var(--color-bg);
     }
 }
 

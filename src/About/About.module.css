@@ -5,9 +5,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0px;
     z-index: 2;
     margin: 0 10%;   
+}
+
+.abttitle{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.abtpts{
+    padding: 10px 10px;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 5px;
+    background-color: rgba(11, 36, 71, 0.7); /* 70% opacity */
+    border-radius: 7px;
 }
 
 
@@ -23,4 +36,40 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.heroImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 963px){
+    .aboutCtnr{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .AbtimgCtnr{
+        display: none;
+    }
+
+    .AbtimgCtnr{
+        width: 100%;
+    }
+
+    .AbtcntCtnr{
+        width: 100%;
+    }
+
+    .AbtcntCtnr h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .AbtcntCtnr p{
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }

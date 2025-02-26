@@ -1,0 +1,93 @@
+@import "../../src/vars.css";
+
+.expimgCtnr{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin: 0 10%; 
+}
+
+
+
+.expimgCtnr{
+    margin-bottom: 12px;
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+.expContentHeading{
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.expContentSubHeading{
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+
+.expContentCtnr2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expContentSubHeading:last-child {
+    margin-bottom: 20px;
+}
+
+.expContentCtnr3 ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.expContentCtnr3 li{
+    margin-bottom: 20px;
+}
+
+.expContentCtnr{
+    margin: 0 10%;
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+    padding: 2% 5%;
+    list-style-type: none;
+    cursor: grab;
+}
+
+.expContentCtnr1{
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+}
+
+
+@media screen and (max-width: 768px){
+
+    .experienceCtnr{
+        margin-top: 20px;
+    }
+
+    .expContentCtnr2 p{
+        width: 100%;
+        text-align: start;
+    }
+
+    .expContentCtnr2{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .expContentSubHeading{
+        margin-bottom: 5px;
+    }
+
+    .expContentSubHeading:last-child {
+        margin-bottom: 15px;
+    }
+}

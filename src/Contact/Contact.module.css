@@ -1,0 +1,84 @@
+@import "../../src/vars.css";
+
+.cntheading{
+    font-size: 2.5rem;
+    color: var(--color-text);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contactWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 20px;
+    position: relative;
+}
+
+.formhorizontal{
+    width:50%;
+    font-weight: 400;
+    padding: 30px 50px;
+    background-color: var(--color-dark);
+    border-radius: 10px;
+}
+
+.formgroup{
+    width: 100%;
+    margin-bottom: 20px;    
+}
+
+.formcontrol{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: var(--color-dark);
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-primary);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.form-control, 
+textarea {
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px 0px 0px 10px;
+  background-color: var(--color-dark);
+  max-width: 425px;
+}
+
+.contactList{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contactItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    gap:20px;
+}
+
+.contactItem a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.SocialIcon{
+    cursor: pointer;
+}
+
