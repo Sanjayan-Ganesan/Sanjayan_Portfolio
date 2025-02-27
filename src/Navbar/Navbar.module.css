@@ -39,6 +39,10 @@
     list-style: none;
 }
 
+.menuItems li{
+    cursor: pointer;
+}
+
 .menuItems a{
     font-size: 18px;
     color: var(--color-text);
@@ -64,7 +68,11 @@
 .mobileMenuItems ul{
     list-style: none;
     height: 100%;
-    display:  contents;
+    display:  contents;    
+}
+
+.mobileMenuItems li {
+    cursor: pointer;
 }
 
 .mobileMenuItems a{

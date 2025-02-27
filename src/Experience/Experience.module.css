@@ -70,7 +70,12 @@
 @media screen and (max-width: 768px){
 
     .experienceCtnr{
+        margin: 0 5%;
         margin-top: 20px;
+    }
+
+    .expContentCtnr{
+        margin: 0 0;
     }
 
     .expContentCtnr2 p{

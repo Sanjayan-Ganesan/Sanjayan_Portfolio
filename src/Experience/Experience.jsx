@@ -11,7 +11,7 @@ import 'swiper/css';
 
 const Experience = () => {
     return (
-        <div className={styles.ctnr}>
+        <div id='experience' className={styles.ctnr}>
             <div className={styles.experienceCtnr}>
                 <div className={styles.expimgCtnr}>
                     <h1 className={styles.heading}>Experience</h1>

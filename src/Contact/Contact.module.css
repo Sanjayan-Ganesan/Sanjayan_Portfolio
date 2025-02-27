@@ -1,13 +1,13 @@
 @import "../../src/vars.css";
 
-.cntheading{
+.cntheading {
     font-size: 2.5rem;
     color: var(--color-text);
     margin-bottom: 10px;
     text-align: center;
 }
 
-.contactWrapper{
+.contactWrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,20 +16,20 @@
     position: relative;
 }
 
-.formhorizontal{
-    width:50%;
+.formhorizontal {
+    width: 50%;
     font-weight: 400;
     padding: 30px 50px;
     background-color: var(--color-dark);
     border-radius: 10px;
 }
 
-.formgroup{
+.formgroup {
     width: 100%;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-.formcontrol{
+.formcontrol {
     width: 100%;
     padding: 10px;
     border: none;
@@ -38,7 +38,8 @@
     letter-spacing: 1px;
     background-color: var(--color-dark);
 }
-.btn{
+
+.btn {
     width: 100%;
     padding: 10px;
     background-color: var(--color-primary);
@@ -50,35 +51,55 @@
 }
 
 
-.form-control, 
+.form-control,
 textarea {
-  color: #fff;
-  letter-spacing: 1px;
-  padding: 10px 0px 0px 10px;
-  background-color: var(--color-dark);
-  max-width: 425px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 0px 0px 10px;
+    background-color: var(--color-dark);
+    max-width: 425px;
 }
 
-.contactList{
+.contactList {
     width: 45%;
     padding: 30px;
     border-radius: 10px;
 }
 
-.contactItem{
+.contactItem {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
-    gap:20px;
+    gap: 20px;
 }
 
-.contactItem a{
+.contactItem a {
     text-decoration: none;
     color: var(--color-text);
 }
 
-.SocialIcon{
+.SocialIcon {
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+
+    .contactWrapper {
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+    .formhorizontal {
+        width: 100%;
+    }
+
+    .contactList {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .cntheading {
+        margin-bottom: 0px;
+    }
+}

@@ -6,6 +6,8 @@ import styles from './Navbar.module.css';
 //import logo from './logo.png';
 import logo from '../Assests/Logo.png';
 
+import { Link } from "react-scroll";
+
 const Navbar = () => {
 
     const [showMenu, setshowMenu] = useState(false);
@@ -14,8 +16,8 @@ const Navbar = () => {
         setshowMenu(!showMenu);
     }
 
-  return (
-    <div  >
+    return (
+        <div  >
             <nav className={styles.navbar}>
                 <div className={styles.title}>
                     <a href='/'><img src={logo} alt="Logo" className={styles.logo} /></a>
@@ -27,16 +29,16 @@ const Navbar = () => {
                     <div className={styles.menu}>
                         <ul className={styles.menuItems}>
                             <li>
-                                <a href='#about'>About</a>
+                                <Link activeClass="active" smooth spy to="about">About</Link>
                             </li>
                             <li>
-                                <a href='#experience'>Experience</a>
+                                <Link activeClass="active" smooth spy to="experience">Experience</Link>
                             </li>
                             <li>
-                                <a href='#projects'>Projects</a>
+                                <Link activeClass="active" smooth spy to="projects">Projects</Link>
                             </li>
                             <li>
-                                <a href='#contacts'>Contacts</a>
+                                <Link activeClass="active" smooth spy to="contacts">Contacts</Link>
                             </li>
                         </ul>
                     </div>
@@ -49,16 +51,16 @@ const Navbar = () => {
                     <div className={styles.mobileMenuItems}>
                         <ul>
                             <li>
-                                <a href='#about'>About</a>
+                                <Link activeClass="active" smooth spy to="about">About</Link>
                             </li>
                             <li>
-                                <a href='#experience'>Experience</a>
+                                <Link activeClass="active" smooth spy to="experience">Experience</Link>
                             </li>
                             <li>
-                                <a href='#projects'>Projects</a>
+                                <Link activeClass="active" smooth spy to="projects">Projects</Link>
                             </li>
                             <li>
-                                <a href='#contacts'>Contacts</a>
+                                <Link activeClass="active" smooth spy to="contacts">Contacts</Link>
                             </li>
                         </ul>
                     </div>
@@ -66,7 +68,7 @@ const Navbar = () => {
             }
 
         </div>
-  )
+    )
 }
 
 export default Navbar

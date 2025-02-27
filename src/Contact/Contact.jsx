@@ -8,7 +8,7 @@ import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contacts' className={styles.contactCtnr}>
             <div className={styles.cntheading}>
                 <p>Contact Me</p>
             </div>

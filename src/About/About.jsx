@@ -4,7 +4,7 @@ import hero from '../Assests/About_Hero.jpeg';
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
         <div className={styles.aboutCtnr}>
             <div className={styles.AbtimgCtnr}>
                 <img src={hero} alt="Hero" className={styles.heroImg} />
