@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Hero.module.css';
 import hero from '../Assests/Software_Eng.jpeg';
+import {Link} from 'react-scroll';
 
 const Hero = () => {
   return (
